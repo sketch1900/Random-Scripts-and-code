@@ -43,15 +43,4 @@ class AreTheyTheSameTestCases extends TestCase
     }
 }
 
-//my code
-function comp($a1, $a2) {    
-    //Compar sqrt of value from 2nd array and check in array 
-    foreach($a2 as $value){
-      if(!(in_array(sqrt($value), $a1))){  
-        return false; //return false if it doesnt exist
-      }
-    }   //assume it exsists if it got this far.
-    return true;
-}
-
 ?>
